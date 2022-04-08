@@ -4,35 +4,40 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
   
-  body {
-    margin: 60px auto;
-    max-width: 800px;
-  }
-  
   h1,
   h2,
   h3 {
     text-align: center;
-    margin: 0px;
+    margin: 0;
   }
   
   h1 {
     font-size: 96px;
-    text-align: center;
-    margin: 0;
-    font-weight: bold;
-    display: block;
   }
   
   h2 {
     font-size: 48px;
-    font-weight: bold;
+    display: block;
   }
   
   h3 {
     font-size: 24px;
     opacity: 0.7;
-    display: block;
+  }
+  
+  p {
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .navbar {
+    padding: 5px 30px;
+  }
+  
+  .navbar-brand {
+    margin-left: 18px;
   }
   
   .navigation-links {
@@ -60,12 +65,6 @@
     border: 1px solid var(--primary-color);
   }
   
-  .homepage-link {
-    color: var(--primary-color);
-    text-align: center;
-    display: block;
-  }
-  
   .about-paragraphs {
     display: flex;
     margin: 30px 0;
@@ -73,16 +72,6 @@
   
   .about-paragraphs p {
     margin: 10px;
-  }
-  
-  p {
-    background: var(--secondary-color);
-    padding: 20px;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: center;
-    display: block;
   }
   
   .email-link {
@@ -95,5 +84,51 @@
   
   .email-link:hover {
     text-decoration: underline;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin: 40px 7px;
+  }
+  
+  .yoga-app {
+    margin: 50px 15px;
+  }
+  
+  .primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .weather-app {
+    margin: 50px 15px;
+  }
+  
+  .yogurt-app {
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-left: 10px;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-paragraphs {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .paragaphs-about {
+    margin: 0;
+    padding: 0;
   }
   
